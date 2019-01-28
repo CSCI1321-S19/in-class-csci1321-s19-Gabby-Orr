@@ -1,0 +1,30 @@
+4
+Kitchen
+Kitchen description & stuff ???
+2
+Knife
+Knife description & stuff ???
+Cookbook
+Cookbook description & stuff ???
+-1,1,-1,-1,-1,-1
+Living Room
+Living Room description & stuff ???
+2
+Hard Candy
+Hard Candy description & stuff ???
+Creepy Photograph
+Photo description & stuff ???
+0,-1,2,-1,-1,-1
+Grandma's Bedroom
+Bedroom Description & stuff ???
+1
+Bedroom Item ???
+Bedroom item description & stuff ???
+-1,-1,-1,3,4,-1
+Creepy Attic
+2
+First weird Item ???
+First weird Item description ???
+Second weird Item ???
+Second weird Item description ???
+-1,-1,-1,-1,-1,5
