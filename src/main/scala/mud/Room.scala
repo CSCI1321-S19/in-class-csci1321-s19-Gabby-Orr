@@ -1,20 +1,24 @@
 package mud
 
+/// How will it know which room i'm in?
+
 class Room(
     name: String,
     desc: String,
     private var items: List[Item],
     exits: Array[Int]) {
   
-  def description(): String = {
-    ??? //Room.rooms(loc).toString
+  def description(): String = {???
+//    name + desc + items + exits
   }
   
   def getExit(dir: Int): Option[Room] = {
     if (exits(dir) == -1) None else Some(Room.rooms(exits(dir)))
   }
   
-  def getItem(itemName: String): Option[Item] = ???
+  def getItem(itemName: String): Option[Item] = {
+    if (???) None else Some(???)
+  }
   
   def dropItem(item: Item): Unit = ???
 }  
@@ -39,4 +43,5 @@ object Room {
       val exits = lines.next.split(",").map(_.trim.toInt)
       new Room(name, desc, items, exits)
     }
+    
 }

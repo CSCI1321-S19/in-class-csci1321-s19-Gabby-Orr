@@ -1,27 +1,28 @@
 4
 Kitchen
-Kitchen description & stuff ???
+It smells amazing in here, but the horrible lighting & obscene amount of Christmas decorations make you feel like you're dying inside.
 2
-Knife
-Knife description & stuff ???
-Cookbook
-Cookbook description & stuff ???
+Stick of Butter
+Sitting on the counter, it's not even half-melted. She must be lurking around here somewhere.
+Recipe Book
+Her greatest secrets lie here, take this & you take grandma's soul.
 -1,1,-1,-1,-1,-1
 Living Room
-Living Room description & stuff ???
+Oh my lord, where are the windows? Why are there so many clocks? Why is it so stuffy in here?
 2
 Hard Candy
-Hard Candy description & stuff ???
-Creepy Photograph
-Photo description & stuff ???
+Who even eats these??? They could totally be poison or even explosive, and none of us would even know...
+Family Photo
+Aww, your family's so cute in this nice little glass frame. There's grandma, mom, dad, you, Jimmy... wait, that's not Jimmy!
 0,-1,2,-1,-1,-1
 Grandma's Bedroom
-Bedroom Description & stuff ???
+???
 1
 Bedroom Item ???
 Bedroom item description & stuff ???
 -1,-1,-1,3,4,-1
 Creepy Attic
+Intense darkness, except for 3 lit candles in the center of room. You sense there's more than just cobwebs and antiques... she's definitely in here.
 2
 First weird Item ???
 First weird Item description ???
