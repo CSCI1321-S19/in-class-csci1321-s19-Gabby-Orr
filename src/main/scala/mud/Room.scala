@@ -7,7 +7,7 @@ class Room(
     exits: Array[Int]) {
   
   def description(): String = {
-    Room.rooms(loc).toString
+    ??? //Room.rooms(loc).toString
   }
   
   def getExit(dir: Int): Option[Room] = {
@@ -15,7 +15,7 @@ class Room(
   }
   
   def getItem(itemName: String): Option[Item] = ???
-   
+  
   def dropItem(item: Item): Unit = ???
 }  
   
