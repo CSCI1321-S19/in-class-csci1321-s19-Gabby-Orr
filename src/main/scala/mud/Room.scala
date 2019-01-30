@@ -8,9 +8,9 @@ class Room(
     private var items: List[Item],
     exits: Array[Int]) {
   
-  def description(): String = {???
-//    name + desc + items + exits
-  }
+//  def description(): String = {
+//    s"$name $desc ${items.foreach(.toString)} $exits"
+//  }
   
   def getExit(dir: Int): Option[Room] = {
     if (exits(dir) == -1) None else Some(Room.rooms(exits(dir)))

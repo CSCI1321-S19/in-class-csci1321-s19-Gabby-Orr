@@ -4,16 +4,15 @@ import io.StdIn._
 
 object Main {
   def main(args:Array[String]): Unit = {
-      println("Welcome to Grandma's Hell House! Enjoy your visit!")
+      println("Welcome to Grandma's Hell House! Enjoy your visit! \nEnter 'help' to see list of commands\n")
       
-      val player = new Player(loc = 0)
-      var command = readLine()
+      val player = new Player
+      var command = "word"
       
-      while (command != "quit") {
-        println("lol u getting this?")
-//        ??? // something about readLine & calling it command
+      while (command != "exit") {
+        command = readLine()        
+        player.processCommand(command)
+        }
       }
         
-    }
-  
 }
