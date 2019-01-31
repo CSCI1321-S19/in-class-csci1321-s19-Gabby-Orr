@@ -8,6 +8,7 @@ object Main {
       
       val player = new Player
       var command = "word"
+      println(s"Welcome ${player.name}\n")
       
       while (command != "exit") {
         command = readLine()        

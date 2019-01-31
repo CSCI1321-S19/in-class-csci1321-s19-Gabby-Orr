@@ -8,9 +8,11 @@ class Room(
     private var items: List[Item],
     exits: Array[Int]) {
   
-//  def description(): String = {
-//    s"$name $desc ${items.foreach(.toString)} $exits"
-//  }
+//  def roomie = Room.rooms
+  
+  def description(): String = { ???       //// (for (i<- 1 to items.length) items(i)
+    s"${Room.rooms(player.loc(0))} ${Room.rooms(loc(1))}\n ${Room.rooms(loc(2}\n ${Room.rooms(loc(3))}"
+  }
   
   def getExit(dir: Int): Option[Room] = {
     if (exits(dir) == -1) None else Some(Room.rooms(exits(dir)))
@@ -21,7 +23,7 @@ class Room(
   }
   
   def dropItem(item: Item): Unit = ???
-}  
+  }  
   
 object Room { 
     val rooms = readRooms()
@@ -44,4 +46,10 @@ object Room {
       new Room(name, desc, items, exits)
     }
     
+//    def rexit(exits: Array[Int]): Array[String] = {
+//      exit(i) match [
+//        case 0 => Room.rooms(0)
+//    }
+//    }
+
 }
